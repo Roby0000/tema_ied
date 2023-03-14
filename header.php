@@ -26,12 +26,9 @@
                 Hello, I'm a WordPress Site
             </a>
         </div>
-
-        <nav class="site-header__nav">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-    </div>
+        <?php 
+      // include menu di navigazione.
+      get_template_part('template-parts/header/nav-menu');  
+    ?>
+</div>
 </header>
