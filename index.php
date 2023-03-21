@@ -27,7 +27,7 @@
 		if ( $post->ID !== $featured_id ) : ?>
                <li>
                   <div class="post-thumb">
-				<?php the_post_thumbnail(); ?>
+				<?php the_post_thumbnail('thumbnail'); ?>
                    </div>
                 <div class="post-entry">
                 <a href="<?php the_permalink (); ?>"><?php the_title(); ?></a>
